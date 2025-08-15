@@ -1,0 +1,23 @@
+# Thư mục Dữ liệu (chứa file thô, đã làm sạch, đã xử lý)
+# Thường rất nặng và không nên đưa lên Git.
+/data/
+
+# Thư mục Mô hình (chứa các file mô hình đã huấn luyện)
+# Cũng rất nặng.
+/models/
+
+# Thư mục cache của Python
+# Tự động tạo ra, không cần lưu trữ.
+__pycache__/
+*.pyc
+
+# File môi trường (có thể chứa các khóa API hoặc thông tin nhạy cảm)
+.env
+*.env.*
+
+# File checkpoint của Jupyter/Colab Notebook
+.ipynb_checkpoints
+
+# File hệ điều hành (tự tạo bởi macOS và Windows)
+.DS_Store
+Thumbs.db
