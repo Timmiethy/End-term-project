@@ -1,0 +1,10 @@
+torch
+transformers
+sentence-transformers
+scikit-learn
+pandas
+fastapi
+uvicorn[standard]
+python-docx
+PyPDF2
+pdfplumber
